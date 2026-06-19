@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center py-24 px-6 overflow-hidden">
         {/* Decorative Shapes */}
 
         <div className="absolute top-20 left-10 w-24 h-24 bg-pink-200 rounded-full blur-2xl opacity-60"></div>
@@ -51,7 +51,7 @@ export default function Hero() {
           Enroll Now
         </button>
 
-        {/* Stats */}
+        {/* Stats
         <div className="mt-16 grid grid-cols-2 md:grid-cols-5 gap-4">
           <div className="bg-orange-50 rounded-2xl p-4">
             <p className="text-2xl font-bold text-orange-600">8–14</p>
@@ -77,7 +77,7 @@ export default function Hero() {
             <p className="text-2xl font-bold text-orange-600">15 Jul</p>
             <p className="text-gray-500">2026</p>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>
