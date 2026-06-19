@@ -45,10 +45,14 @@ export default function LearningOutcomes() {
   ];
 
   return (
-    <section className="py-24 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-24 px-6 relative overflow-hidden">
+        <div className="absolute top-10 left-10 w-40 h-40 bg-orange-400 rounded-full blur-3xl opacity-50"></div>
+        <div className="absolute top-20 right-20 w-36 h-36 bg-pink-400 rounded-full blur-3xl opacity-50"></div>
+        <div className="absolute bottom-10 left-1/4 w-32 h-32 bg-green-400 rounded-full blur-3xl opacity-50"></div>
+
+      <div className="relative z-10 max-w-6xl mx-auto">
         
-        <h2 className="text-4xl font-bold text-center mb-4">
+        <h2 className="text-4xl font-bold text-orange-500 text-center mb-4">
           What Your Child Will Learn
         </h2>
 

@@ -3,10 +3,10 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center py-24 px-6 overflow-hidden">
         {/* Decorative Shapes */}
 
-        <div className="absolute top-20 left-10 w-24 h-24 bg-pink-200 rounded-full blur-2xl opacity-60"></div>
-        <div className="absolute top-40 right-16 w-32 h-32 bg-orange-200 rounded-full blur-3xl opacity-60"></div>
-        <div className="absolute bottom-24 left-24 w-28 h-28 bg-green-200 rounded-full blur-3xl opacity-60"></div>
-        <div className="absolute bottom-32 right-20 w-20 h-20 bg-pink-300 rounded-full blur-2xl opacity-50"></div>
+        <div className="absolute top-20 left-10 w-24 h-24 bg-pink-400 rounded-full blur-2xl opacity-60"></div>
+        <div className="absolute top-40 right-16 w-32 h-32 bg-orange-400 rounded-full blur-3xl opacity-60"></div>
+        <div className="absolute bottom-24 left-24 w-28 h-28 bg-green-400 rounded-full blur-3xl opacity-60"></div>
+        <div className="absolute bottom-32 right-20 w-20 h-20 bg-pink-400 rounded-full blur-2xl opacity-50"></div>
 
         <div className="absolute top-28 right-[20%] text-4xl rotate-12">
           🤖
