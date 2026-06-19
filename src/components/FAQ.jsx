@@ -31,7 +31,7 @@ export default function FAQ() {
         <div className="absolute top-32 right-0 w-80 h-80 bg-pink-300 rounded-full blur-3xl opacity-40"></div>
         <div className="absolute bottom-0 left-1/3 w-64 h-64 bg-green-300 rounded-full blur-3xl opacity-40"></div>
 
-      <div className="max-w-4xl mx-auto">
+      <div className="relative z-10 max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <span className="px-4 py-2 rounded-full bg-orange-100 text-orange-600 text-sm font-medium">
             ❓ FAQ
