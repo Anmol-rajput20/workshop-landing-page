@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import WorkshopDetails from "./components/WorkshopDetails";
 import LearningOutcomes from "./components/LearningOutcomes";
-// import FAQ from "./components/FAQ";
+import FAQ from "./components/FAQ";
 // import RegistrationForm from "./components/RegistrationForm";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
       <Hero />
       <WorkshopDetails />
       <LearningOutcomes />
-      {/* <FAQ />
-      <RegistrationForm /> */}
+      <FAQ />
+      {/* <RegistrationForm /> */}
     </>
   );
 }
