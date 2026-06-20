@@ -8,21 +8,6 @@ export default function Hero() {
         <div className="absolute bottom-24 left-24 w-28 h-28 bg-green-400 rounded-full blur-3xl opacity-60"></div>
         <div className="absolute bottom-32 right-20 w-20 h-20 bg-pink-400 rounded-full blur-2xl opacity-50"></div>
 
-        <div className="absolute top-28 right-[20%] text-4xl rotate-12">
-          🤖
-        </div>
-
-        <div className="absolute bottom-40 left-[15%] text-4xl -rotate-12">
-          🚀
-        </div>
-
-        <div className="absolute top-[20%] left-[20%] text-3xl">
-          ⭐
-        </div>
-
-        <div className="absolute bottom-32 right-[12%] text-5xl rotate-6">
-          💡
-        </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         
