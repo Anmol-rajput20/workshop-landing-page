@@ -50,17 +50,36 @@ export default function RegistrationForm() {
     if (!validate()) return;
 
     setLoading(true);
+    setSuccess("");
 
-    setTimeout(() => {
-      setSuccess("Registration submitted successfully!");
+    try{
+      const response = await fetch(
+        "http://localhost:5000/api/enquiry",
+        {
+          method : "POST",
+          headers: {
+            "Content-Type" : "application/json",
+          },
+          body : JSON.stringify(formData),
+        }
+      );
+
+      const data = await response.json();
+
+      if(data.success) {
+        setSuccess(data.message);
+
+        setFormData({
+          name: "",
+          email : "",
+          phone : "",
+        });
+      }
+    }catch(error){
+      console.log(error);
+    }finally{
       setLoading(false);
-
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-      });
-    }, 1500);
+    }
   };
 
   return (
