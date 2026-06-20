@@ -54,7 +54,7 @@ export default function RegistrationForm() {
 
     try{
       const response = await fetch(
-        "http://localhost:5000/api/enquiry",
+        "https://workshop-backend-q08d.onrender.com/api/enquiry",
         {
           method : "POST",
           headers: {
